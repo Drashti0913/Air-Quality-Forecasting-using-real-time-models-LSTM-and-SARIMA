@@ -39,10 +39,11 @@ Generate predictions and visualize air quality forecasts.
 3. Commit Changes
 4. Push to the Branch
 5. Submit a Pull Request
-6. 
+   
 ## License
 This project is licensed under the MIT License.
 
 ## Contact
 Email: drashtibhavsar09@gmail.com
+
 LinkedIn: [Drashti09](https://www.linkedin.com/in/drashtibhavsar9/)
