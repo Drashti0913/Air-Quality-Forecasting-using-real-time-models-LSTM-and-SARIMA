@@ -158,6 +158,8 @@ jupyter notebook Minor_Project_LSTM-Copy1.ipynb
 
 > Forecast plots and error metrics (RMSE, MAE) available in each notebook.
 > Add your key metrics here after running: LSTM RMSE: ___ · SARIMA RMSE: ___
+<img width="706" height="505" alt="image" src="https://github.com/user-attachments/assets/41cfa1e4-8c89-42e0-9015-d2ac9ac83464" />
+<img width="706" height="505" alt="image" src="https://github.com/user-attachments/assets/7ef39ade-5a64-4f9b-9c30-290ea1bff6cd" />
 
 ---
 
