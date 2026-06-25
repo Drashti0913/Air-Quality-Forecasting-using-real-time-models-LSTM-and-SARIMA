@@ -111,4 +111,62 @@ Built as a minor research project at **Pandit Deendayal Energy University (PDEU)
 
 ## License
 
+MIT```
+
+---
+
+## Quick Start
+
+```bash
+git clone https://github.com/Drashti0913/Air-Quality-Forecasting-using-real-time-models-LSTM-and-SARIMA.git
+cd Air-Quality-Forecasting-using-real-time-models-LSTM-and-SARIMA
+
+pip install tensorflow statsmodels pandas numpy matplotlib scikit-learn
+
+# SARIMA model
+jupyter notebook MinorProject_ARIMA_SARIMA-Copy1.ipynb
+
+# LSTM model
+jupyter notebook Minor_Project_LSTM-Copy1.ipynb
+```
+
+---
+
+## Project Structure
+
+```
+├── 2019/ – 2023/                          # Year-wise real air quality data
+├── Minor_Project_LSTM-Copy1.ipynb         # LSTM training + forecasting
+├── MinorProject_ARIMA_SARIMA-Copy1.ipynb  # SARIMA modeling + diagnostics
+├── p3.jpg                                 # Forecast visualization
+└── README.md
+```
+
+---
+
+## Key Insights
+
+**When LSTM wins:** Pollution events driven by irregular external factors (festivals, industrial incidents, weather anomalies) that don't follow seasonal patterns. LSTM captures these from historical context.
+
+**When SARIMA wins:** Predictable seasonal cycles (winter smog, monsoon clearing). SARIMA's explicit seasonal decomposition is more reliable and interpretable here.
+
+**Practical takeaway:** A hybrid ensemble — SARIMA for seasonal baseline, LSTM residual correction — would outperform either model alone. That's a natural next step.
+
+---
+
+## Results
+
+> Forecast plots and error metrics (RMSE, MAE) available in each notebook.
+> Add your key metrics here after running: LSTM RMSE: ___ · SARIMA RMSE: ___
+
+---
+
+## Context
+
+Built as a minor research project at **Pandit Deendayal Energy University (PDEU)**, Gandhinagar. Motivated by India's persistent air quality crisis — cities like Ahmedabad regularly exceed WHO safe limits, and localized forecasting models are scarce.
+
+---
+
+## License
+
 MIT
